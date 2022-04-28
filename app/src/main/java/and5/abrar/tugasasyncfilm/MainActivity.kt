@@ -37,7 +37,6 @@ class MainActivity : AppCompatActivity() {
 
         override fun onPostExecute(result: Void?) {
             super.onPostExecute(result)
-            rvFilm.adapter = adapterFilm
             getDataFilm()
             pDialog.dismiss()
         }
